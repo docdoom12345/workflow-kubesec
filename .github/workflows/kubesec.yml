@@ -30,7 +30,6 @@ jobs:
           input: pod.yaml # specify configuration file to scan here
           format: json
           output: kubesec-report.json
-          exit-code: "0"
       
       - name: display file content
         run: |
